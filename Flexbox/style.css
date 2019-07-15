@@ -245,6 +245,6 @@ input::-moz-focus-inner {
 
 .container {
   display: flex;
-  border: 10px solid goldenrod;
+  border: 10px solid black;
   height: 100vh;
 }
