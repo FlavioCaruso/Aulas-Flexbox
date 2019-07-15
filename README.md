@@ -15,3 +15,5 @@
 - [x] Tamanho utilizando propriedades Flex
 - [x] Flex-grow, flex-shrink e flex-basis
 - [x] Flex-basis e wrapping trabalhando junto
+- [x] [Autoprefixer](https://autoprefixer.github.io/)
+  - Instalar [Gulp]https://gulpjs.com/
