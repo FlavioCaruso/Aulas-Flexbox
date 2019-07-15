@@ -13,4 +13,5 @@
 - [x] Alinhamento e Centralização - align-content
 - [x] Alinhamento e Centralização - align-self
 - [x] Tamanho utilizando propriedades Flex
-- [x] Flex-box, flex-grow, flex-shrink e flex-basis
+- [x] Flex-grow, flex-shrink e flex-basis
+- [x] Flex-basis e wrapping trabalhando junto
