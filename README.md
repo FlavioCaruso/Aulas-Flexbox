@@ -19,6 +19,6 @@
   - Instalar [Gulp](https://gulpjs.com/)
 - [x] Flex-box navbar
 - Navbar aberta
-  ![opennav.jpg]
+  ![](opennav.jpg)
 - Navbar fechada
-  ![opennav.jpg]
+  ![](opennav.jpg)
