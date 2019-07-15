@@ -195,7 +195,7 @@ input::-moz-focus-inner {
 /* Some default styles to make each box visible */
 .box {
   color: white;
-  font-size: 100px;
+  font-size: 60px;
   text-align: center;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
   padding: 10px;
@@ -242,10 +242,35 @@ input::-moz-focus-inner {
   background: #16a085;
 }
 
+/* Order - Padrão é 0 */
+/* .box {
+  flex: 1;
+  order: 1; 
+} */
 
-.container {
+/* justify-content - Padrão flex-start */
+/* .container {
   display: flex;
-  border: 10px solid black;
+  justify-content: center;
+  flex-direction: column;
   min-height: 100vh;
-  /* flex-direction: column; Utiliza row por padrão*/
+} */
+
+/* align-items - Padrão strech*/
+/* .container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+} */
+
+/* align-content - Padrão strech - Funciona verticalmente*/
+/* .container {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
+.box {
+  width: 33.333%;
+} */
