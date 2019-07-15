@@ -21,4 +21,4 @@
 - Navbar aberta
   ![](opennav.jpg)
 - Navbar fechada
-  ![](opennav.jpg)
+  ![](closenav.jpg)
