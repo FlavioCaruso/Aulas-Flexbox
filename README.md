@@ -18,3 +18,7 @@
 - [x] [Autoprefixer](https://autoprefixer.github.io/)
   - Instalar [Gulp](https://gulpjs.com/)
 - [x] Flex-box navbar
+- Navbar aberta
+  ![opennav.jpg]
+- Navbar fechada
+  ![opennav.jpg]
