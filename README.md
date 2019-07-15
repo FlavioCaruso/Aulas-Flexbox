@@ -26,3 +26,4 @@
 
 - [x] Mobile Reordering
 - [x] Nesting Flexbox
+- [x] Flexbox Pricing grid
