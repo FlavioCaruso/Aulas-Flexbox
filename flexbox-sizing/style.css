@@ -195,7 +195,7 @@ input::-moz-focus-inner {
 /* Some default styles to make each box visible */
 .box {
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
   padding: 10px;
@@ -242,49 +242,21 @@ input::-moz-focus-inner {
   background: #16a085;
 }
 
-/* Order - Padrão é 0 */
-/* .box {
-  flex: 1;
-  order: 1; 
-} */
 
-/* justify-content - Padrão flex-start */
-/* .container {
+/* We start writing out flexbox here. The above is just page setup */
+.container {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  min-height: 100vh;
-} */
-
-/* align-items - Padrão strech*/
-/* .container {
-  display: flex;
-  align-items: center;
-  height: 100vh;
-} */
-
-/* align-content - Padrão strech - Funciona verticalmente*/
-/* .container {
-  display: flex;
-  height: 100vh;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
 }
-.box {
-  width: 33.333%;
-} */
 
-/* align-self - Padrão strech - Utilizado em um único elemento*/
-/* .container {
-  display: flex;
-  height: 100vh;
-  align-items: flex-start;
+.box1 {
+  flex-basis: 400px;
+  /* Padrão flex-grow é 0 */
+  flex-grow: 1;
+  /* Padrão flex-shrink é 1 */
+  flex-shrink: 1;
 }
-.box {
-  width: 33.3333%;
-}
+
 .box2 {
-  padding-bottom: 200px;
-  align-self: flex-end;
-} */
+  /* grow, shrink, basis em uma linha*/
+  flex: 3 5 400px;
+}
