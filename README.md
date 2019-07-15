@@ -23,3 +23,5 @@
 - **Navbar fechada**
 
   ![](closenav.jpg)
+
+- [x] Mobile Reordering
