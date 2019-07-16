@@ -27,3 +27,5 @@
 - [x] Mobile Reordering
 - [x] Nesting Flexbox
 - [x] Flexbox Pricing grid
+- [x] Equal Height Elements
+- [x] Flexbox Form
